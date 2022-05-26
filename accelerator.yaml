@@ -8,12 +8,18 @@ accelerator:
     label: API Gateway Name
     display: true
     defaultValue: ""
-  - name: ExposeOnTapIngress
+  - name: exposeOnTapIngress
     label: Expose on TAP Ingress
     inputType: checkbox
     display: true
     defaultValue: true
     dataType: boolean
+  - name: IngressFqdn
+    label: Managed Service Fully Qualified Hostname 
+    defaultValue: ""
+    dependsOn:
+      name: exposeOnTapIngress
+      value: true
 engine:
   include:
   - '**'
