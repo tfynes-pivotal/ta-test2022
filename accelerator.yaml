@@ -1,17 +1,19 @@
 accelerator:
-  displayName: ta-test2022
-  description: ta-test2022
+  displayName: ta-api-gateway-creator
+  description: Tanzu API Gateway Creator
   iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-tanzu-light.png
   tags: []
   options:
-  - name: optionName
-    label: Nice Label
+  - name: Name
+    label: API Gateway Name
     display: true
     defaultValue: ""
-  - name: optionName2
-    label: Nice Label2
+  - name: ExposeOnTapIngress
+    label: Expose on TAP Ingress
+    inputType: checkbox
     display: true
-    defaultValue: ""
+    defaultValue: true
+    dataType: boolean
 engine:
   include:
   - '**'
