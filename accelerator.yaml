@@ -8,6 +8,10 @@ accelerator:
     label: Nice Label
     display: true
     defaultValue: ""
+  - name: optionName
+    label: Nice Label2
+    display: true
+    defaultValue: ""
 engine:
   include:
   - '**'
