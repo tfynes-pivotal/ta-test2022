@@ -8,7 +8,7 @@ accelerator:
     label: Nice Label
     display: true
     defaultValue: ""
-  - name: optionName
+  - name: optionName2
     label: Nice Label2
     display: true
     defaultValue: ""
