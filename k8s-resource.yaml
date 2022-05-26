@@ -1,0 +1,9 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: ta-test2022
+spec:
+  git:
+    url: https://github.com/tfynes-pivotal/ta-test2022
+    ref:
+      branch: main
