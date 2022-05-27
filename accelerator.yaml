@@ -1,5 +1,5 @@
 accelerator:
-  displayName: ta-api-gateway-creator
+  displayName: API-Gateway Creator
   description: Tanzu API Gateway Creator
   iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-tanzu-light.png
   tags: []
@@ -12,7 +12,7 @@ accelerator:
     label: Expose on TAP Ingress
     inputType: checkbox
     display: true
-    defaultValue: true
+    defaultValue: false
     dataType: boolean
   - name: IngressFqdn
     label: Managed Service Fully Qualified Hostname 
